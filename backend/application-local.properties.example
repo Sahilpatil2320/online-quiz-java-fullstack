@@ -1,0 +1,6 @@
+# Copy to "application-local.properties" (this file name is git-ignored) and fill in YOUR values.
+spring.datasource.username=quiz_user
+spring.datasource.password=CHANGE_ME
+# Creates the first admin account on startup if it does not exist yet:
+app.admin.email=admin@example.com
+app.admin.password=CHANGE_ME_STRONG_PASSWORD

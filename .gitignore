@@ -1,0 +1,29 @@
+# dependencies & build output
+node_modules/
+frontend/dist/
+backend/target/
+*.class
+*.jar
+!backend/.mvn/wrapper/*.jar
+
+# secrets / local configuration (never commit these)
+.env
+.env.*
+!.env.example
+backend/application-local.properties
+*.pem
+*.key
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# logs & temp
+*.log
+logs/
+*.tmp
+reset-password*.sql
+reset-password*.txt
