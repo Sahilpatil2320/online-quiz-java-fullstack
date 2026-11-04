@@ -17,7 +17,6 @@
   <description>SQROCK Online Quiz Application - REST API</description>
 
   <properties>
-    <!-- Works with JDK 17, 21 or newer (compiled with --release 17) -->
     <java.version>17</java.version>
   </properties>
 
